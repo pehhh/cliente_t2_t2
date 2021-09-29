@@ -1,0 +1,63 @@
+/* general */
+*{
+    margin: 0 auto;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+body{
+    width: 85%;
+    border: 1px solid black;
+    border-radius: 0  0 40px 40px;
+    overflow: hidden;
+    height:600px;
+    
+}
+/* cabecera */
+header{
+    background-image: url(../img/moroccan-flower.png);
+    background-size: cover;
+    background-clip: content-box;
+    background-attachment: fixed;
+    height: 150px;
+    border: 1px solid black;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 100px;
+}
+/* botones */
+#boton{
+    margin: 30px 30px 30px 100px;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    display: block;
+    float: left;
+    clear: left;
+}
+#boton:hover{
+    background-color: black;
+    color: white;
+}
+.contenedorOperacion{
+    margin-top: 50px;
+}
+.solucion{
+    border: 1px solid black;
+    float: right;
+    height: 100px;
+    width: 300px;
+    clear: right;
+    margin: 5px 100px 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.floatLeft{
+    float: left;
+}
+.floatRigth{
+    float: right;
+}
